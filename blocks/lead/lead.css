@@ -1,15 +1,17 @@
 .lead{
+  font-family: 'Inter';
   max-width: 76.875%;
-  margin: 0 auto;
+  margin: 0 auto 92px;
+  color: inherit;
 }
 
-@media all and (max-width: 1024px){
+@media (max-width: 1024px){
   .lead{
     max-width: 90.625%;
   }
 }
 
-@media all and (max-width: 768px){
+@media (max-width: 768px){
   .lead{
     max-width: 100%;
   }

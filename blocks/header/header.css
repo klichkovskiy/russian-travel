@@ -1,24 +1,26 @@
 .header{
+  font-family: 'Inter';
   max-width: 92.5%;
   display: flex;
   justify-content: space-between;
   padding-top: 28px;
   margin: 0 auto;
+  color: inherit;
 }
 
-@media all and (max-width: 1024px){
+@media (max-width: 1024px){
   .header{
     max-width: 90.625%;
   }
 }
 
-@media all and (max-width: 768px){
+@media (max-width: 768px){
   .header{
     max-width: 93.75%;
   }
 }
 
-@media all and (max-width: 320px){
+@media (max-width: 320px){
   .header{
     max-width: 90%;
   }
