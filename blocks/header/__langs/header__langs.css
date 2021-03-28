@@ -1,0 +1,9 @@
+.header__langs{
+  display: grid;
+  list-style: none;
+  grid-template-columns: max-content max-content;
+  column-gap: 18px;
+  align-content: end;
+  margin: 0;
+  padding: 0;
+}
