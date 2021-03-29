@@ -1,0 +1,9 @@
+.place{
+    max-width: 76.875%;
+    display: grid;
+    grid-template-columns: 460px 484px;
+    margin: 0 auto 80px;
+    color: inherit;
+    column-gap: 40px;
+    row-gap: 48px;
+}
