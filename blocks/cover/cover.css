@@ -1,12 +1,8 @@
 .cover{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  display: block;
   position: relative;
-  max-width: 1184px;
-  height: 740px;
   background-image: url(../../images/cover__background.jpg);
-  background-size: initial;
+  background-size: 100% 100%;
   margin: 0 auto 92px;
   z-index: 1;
 }
