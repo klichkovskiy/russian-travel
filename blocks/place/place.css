@@ -1,6 +1,6 @@
 .place{
   display: grid;
-  grid-template-columns: 47% minmax(min-content, 484px);
+  grid-template-columns: minmax(min-content, 47%)  minmax(min-content, 484px);
   margin: 0 148px;
   color: inherit;
   column-gap: 40px;
@@ -9,15 +9,17 @@
 
 @media (max-width: 1024px){
   .place{
-    grid-template-columns: 47% minmax(min-content, 456px);
-    margin: 0 148px;
+    grid-template-columns: minmax(min-content, 47%) minmax(min-content, 456px);
+    margin: 0 48px;
   }
 }
 
 @media (max-width: 768px){
   .place{
-    grid-template-columns: 47% minmax(min-content, 352px);
-    margin: 0 48px;
+    grid-template-columns: minmax(min-content, 47%) minmax(min-content, 352px);
+    column-gap: 5.208333vw;
+    row-gap: 6.25vw;
+    margin: 0 24px;
   }
 }
 
@@ -25,5 +27,6 @@
   .place{
     grid-template-columns: minmax(min-content, 320px);
     margin: 0;
+    row-gap: 32px;
   }
 }

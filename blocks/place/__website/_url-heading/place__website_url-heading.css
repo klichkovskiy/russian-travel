@@ -5,3 +5,15 @@
   letter-spacing: 0.2em;
   color: #AAAAAA;
 }
+
+@media (max-width: 768px){
+  .place__website_url-heading{
+    font-size: 1.5625vw;
+  }
+}
+
+@media (max-width: 320px){
+  .place__website_url-heading{
+    font-size: 3.75vw;
+  }
+}

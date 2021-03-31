@@ -1,0 +1,31 @@
+.cover__link{
+  width: 1184px;
+  height: 740px;
+  position: relative;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../../../images/cover__background.jpg);
+  margin: 0 auto;
+  z-index: 1;
+  color: inherit;
+}
+
+.cover__link::after{
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #2A2C2F;
+  opacity: 0.3;
+  z-index: -1;
+  transition: opacity 0.3s linear;
+}
+
+.cover__link:hover::after {
+  opacity: 0.8;
+}
