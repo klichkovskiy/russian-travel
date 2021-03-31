@@ -1,0 +1,16 @@
+.page__lead{
+  max-width: 76.875%;
+  margin: 0 auto;
+}
+
+@media (max-width: 1024px){
+  .page__lead{
+    max-width: 90.625%;
+  }
+}
+
+@media (max-width: 768px){
+  .page__lead{
+    max-width: 100%;
+  }
+}

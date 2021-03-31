@@ -1,0 +1,23 @@
+.page__intro{
+  grid-template-columns: fit-content(690px);
+  margin-left: 148px;
+}
+
+@media (max-width: 1024px){
+  .page__intro{
+    margin-left: 48px;
+  }
+}
+
+@media (max-width: 768px){
+  .page__intro{
+    grid-template-columns: fit-content(720px);
+    margin: 0 24px;
+  }
+}
+
+@media (max-width: 320px){
+  .page__intro{
+    margin: 0 16px;
+  }
+}

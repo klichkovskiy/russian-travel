@@ -1,6 +1,8 @@
 .content{
+  font-family: 'Inter';
   display: grid;
   row-gap: 92px;
+  color: inherit;
 }
 
 @media (max-width: 768px){

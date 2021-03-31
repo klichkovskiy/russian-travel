@@ -1,7 +1,12 @@
 .footer{
+  font-family: 'Inter';
   display: flex;
   justify-content: space-between;
-  max-width: 1184px;
-  margin: 0 auto;
-  padding-bottom: 24px;
+  color: inherit;
+}
+
+@media (max-width: 700px){
+  .footer{
+    flex-direction: column;
+  }
 }

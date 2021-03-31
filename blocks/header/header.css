@@ -1,8 +1,6 @@
 .header{
   font-family: 'Inter';
-  max-width: 92.5%;
   display: flex;
   justify-content: space-between;
-  margin: 0 auto;
   color: inherit;
 }

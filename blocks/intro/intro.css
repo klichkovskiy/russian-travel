@@ -2,26 +2,4 @@
   font-family: 'Inter';
   color: inherit;
   display: grid;
-  grid-template-columns: fit-content(690px);
-  margin-left: 148px;
-}
-
-
-@media (max-width: 1024px){
-  .intro{
-    margin-left: 48px;
-  }
-}
-
-@media (max-width: 768px){
-  .intro{
-    grid-template-columns: fit-content(720px);
-    margin: 0 24px;
-  }
-}
-
-@media (max-width: 320px){
-  .intro{
-    margin: 0 16px;
-  }
 }

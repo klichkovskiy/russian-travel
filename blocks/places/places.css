@@ -1,6 +1,8 @@
 .places{
+  font-family: 'Inter';
   display: grid;
   row-gap: 80px;
+  color: inherit;
 }
 
 @media (max-width: 768px){
