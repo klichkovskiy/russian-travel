@@ -1,5 +1,6 @@
 .content{
   font-family: 'Inter' , "Arial", sans-serif;
+  display: -ms-grid;
   display: grid;
   row-gap: 92px;
   color: inherit;
