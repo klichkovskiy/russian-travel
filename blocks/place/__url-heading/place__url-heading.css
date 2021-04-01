@@ -4,17 +4,10 @@
   line-height: 1;
   letter-spacing: 0.2em;
   color: #AAAAAA;
-  margin: 0 0 12px;
 }
 
-@media (max-width: 768px){
+@media (max-width: 800px){
   .place__url-heading{
-    font-size: 1.5625vw;
-  }
-}
-
-@media (max-width: 320px){
-  .place__url-heading{
-    font-size: 3.75vw;
+    line-height: 12px;
   }
 }
