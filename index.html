@@ -9,11 +9,11 @@
   <link rel="stylesheet" href="./pages/index.css">
 </head>
 
-<body>
+<body class="body">
   <div class="page">
 
     <header class="header page__header">
-      <img src="./images/logo.png" alt="Логотип" class="header__logo">
+      <img src="./images/logo.svg" alt="Логотип" class="header__logo">
       <ul class="header__langs">
         <li><a class="header__lang-link link-hover header__lang-link_active" href="#" target="_blank">Ru</a></li>
         <li><a class="header__lang-link link-hover" href="#" target="_blank">En</a></li>
@@ -25,8 +25,10 @@
       <section class="lead page__lead">
         <h1 class="lead__title">Путешествия по России</h1>
         <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
-        <img class="lead__img" src="./images/lead__img.jpg" alt="Вид на бокову полку со спящим щеловеком">
-        <p class="lead__caption">ваша полка — верхняя</p>
+        <figure>
+          <img class="lead__img" src="./images/lead__img.jpg" alt="Вид на бокову полку со спящим щеловеком">
+          <figcaption class="lead__caption">ваша полка — верхняя</figcaption>
+        </figure>
       </section>
 
       <section class="intro page__intro">
@@ -39,13 +41,13 @@
           20 тысяч километров по родной стране. Мы выбрали и описали некоторые интересные места, достойные вашего
           отпуска.</p>
         <ul class="intro__list">
-          <li class="intro__item">Часовых поясов<span class="intro__item intro__item_no-bold"> 11</span></li>
-          <li class="intro__item">Объектов природного наследия ЮНЕСКО<span class="intro__item intro__item_no-bold">
+          <li class="intro__item">Часовых поясов<span class="intro__value"> 11</span></li>
+          <li class="intro__item">Объектов природного наследия ЮНЕСКО<span class="intro__value">
               12</span></li>
-          <li class="intro__item">Объектов культурного наследия ЮНЕСКО<span class=" intro__item intro__item_no-bold">
+          <li class="intro__item">Объектов культурного наследия ЮНЕСКО<span class=" intro__value">
               16</span></li>
-          <li class="intro__item">Природных заповедников<span class="intro__item intro__item_no-bold"> 105</span></li>
-          <li class="intro__item">Аэропортов<span class="intro__item intro__item_no-bold"> 241</span></li>
+          <li class="intro__item">Природных заповедников<span class="intro__value"> 105</span></li>
+          <li class="intro__item">Аэропортов<span class="intro__value"> 241</span></li>
         </ul>
       </section>
 
@@ -57,14 +59,15 @@
         <img src="./images/photo-grid__item-5.jpg" alt="машина на льду" class="photo-grid__item">
         <img src="./images/photo-grid__item-6.jpg" alt="море, пляж, горы" class="photo-grid__item">
         <img src="./images/photo-grid__item-7.jpg" alt="снежные горы" class="photo-grid__item">
-        <img src="./images/photo-grid__item-8.jpg" alt="знак пешеходного переходы и отбойники волн" class="photo-grid__item">
+        <img src="./images/photo-grid__item-8.jpg" alt="знак пешеходного переходы и отбойники волн"
+          class="photo-grid__item">
         <img src="./images/photo-grid__item-9.jpg" alt="горы в тумане" class="photo-grid__item">
         <img src="./images/photo-grid__item-10.jpg" alt="равнина с горой" class="photo-grid__item">
         <img src="./images/photo-grid__item-11.jpg" alt="горы с озером" class="photo-grid__item">
         <img src="./images/photo-grid__item-12.jpg" alt="гора в тумане" class="photo-grid__item">
       </section>
 
-      <section class="places">
+      <article class="places">
 
         <div class="place">
           <h2 class="place__title">Куршская коса</h2>
@@ -88,7 +91,8 @@
           <h2 class="place__title">Кольский</h2>
           <div class="place__website">
             <p class="place__url-heading">URL</p>
-            <a class="place__link link-hover" href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" target="_blank">National Geographic</a>
+            <a class="place__link link-hover" href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy"
+              target="_blank">National Geographic</a>
           </div>
           <img src="./images/place__image-2.jpg" alt="снежные горы" class="place__img">
           <div class="place__paragraph">
@@ -106,7 +110,8 @@
           <h2 class="place__title">Алтай</h2>
           <div class="place__website">
             <p class="place__url-heading">URL</p>
-            <a class="place__link link-hover" href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822" target="_blank">Facebook</a>
+            <a class="place__link link-hover" href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822"
+              target="_blank">Facebook</a>
           </div>
           <img src="./images/place__image-3.jpg" alt="ноутбук на фоне зеленых деревьев" class="place__img">
           <div class="place__paragraph">
@@ -124,7 +129,8 @@
           <h2 class="place__title">Зимний Байкал</h2>
           <div class="place__website">
             <p class="place__url-heading">URL</p>
-            <a class="place__link link-hover" href="https://vk.com/baikalmile" target="_blank">https://vk.com/baikalmile</a>
+            <a class="place__link link-hover" href="https://vk.com/baikalmile"
+              target="_blank">https://vk.com/baikalmile</a>
           </div>
           <img src="./images/place__image-4.jpg" alt="треснутый чистый лед" class="place__img">
           <div class="place__paragraph">
@@ -151,7 +157,7 @@
             В девственном лесу на сотню километров не встретишь тропы. А на редких тропинках деревья
             в паре метров от земли помечены медвежьими когтями. Чтобы все знали, кто тут хозяин.</p>
         </div>
-      </section>
+      </article>
 
       <section class="cover page__cover">
         <a class="cover__link" href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank">
@@ -164,14 +170,16 @@
     </main>
 
     <footer class="footer page__footer">
-      <ul class="footer__links">
-        <li><a href="https://yandex.ru/maps" target="_blank" class="footer__link link-hover">Карты</a></li>
-        <li><a href="https://yandex.ru/pogoda" target="_blank" class="footer__link link-hover">Погода</a></li>
-        <li><a href="https://rasp.yandex.ru" target="_blank" class="footer__link link-hover">Расписание</a></li>
-        <li><a href="https://calendar.yandex.ru" target="_blank" class="footer__link link-hover">Календарь</a></li>
-        <li><a href="https://travel.yandex.ru" target="_blank" class="footer__link link-hover">Путешествия</a></li>
-      </ul>
-      <p class="footer__copuright">&copy; 2021. Евгений Кличковский</p>
+      <nav>
+        <ul class="footer__links">
+          <li><a href="https://yandex.ru/maps" target="_blank" class="footer__link link-hover">Карты</a></li>
+          <li><a href="https://yandex.ru/pogoda" target="_blank" class="footer__link link-hover">Погода</a></li>
+          <li><a href="https://rasp.yandex.ru" target="_blank" class="footer__link link-hover">Расписание</a></li>
+          <li><a href="https://calendar.yandex.ru" target="_blank" class="footer__link link-hover">Календарь</a></li>
+          <li><a href="https://travel.yandex.ru" target="_blank" class="footer__link link-hover">Путешествия</a></li>
+        </ul>
+      </nav>
+      <p class="footer__copyright">&copy; 2021. Евгений Кличковский</p>
     </footer>
 
   </div>

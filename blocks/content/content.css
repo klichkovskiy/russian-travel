@@ -1,5 +1,5 @@
 .content{
-  font-family: 'Inter';
+  font-family: 'Inter' , "Arial", sans-serif;
   display: grid;
   row-gap: 92px;
   color: inherit;
